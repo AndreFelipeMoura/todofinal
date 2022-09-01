@@ -34,7 +34,7 @@ function App() {
           ))}
         </C.HStack>
         <C.Divider my={4} borderColor="blackAlpha.700" />
-        <C.Box w="80%">{}getCompStep</C.Box>
+        <C.Box w="80%">{getCompStep()}</C.Box>
 
 
         <C.HStack spacing={10} mt={4}>
